@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "figma-dev-mode-mcp-server": {
+      "command": "npx",
+      "args": ["-y", "figma-dev-mode-mcp-server"]
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--project-ref=auxiobfcqaqwljujxowp"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_208270de58966a53f51cac9839148cccfa0abd8c"
+      }
+    }
+  }
+}

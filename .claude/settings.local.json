@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@14:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(npm i:*)",
+      "Bash(vercel --yes:*)",
+      "Bash(vercel --prod:*)",
+      "Bash(tree:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(bun --version:*)",
+      "Bash(opencode --version:*)",
+      "WebFetch(domain:opencode.ai)",
+      "Bash(echo:*)",
+      "Bash(export PATH=\"$HOME/.opencode/bin:$PATH\")",
+      "Bash(bunx oh-my-opencode install:*)",
+      "Bash(bash)",
+      "Bash($HOME/.opencode/bin/opencode --version)",
+      "Bash($HOME/.opencode/bin/opencode -v)",
+      "Bash($HOME/.opencode/bin/opencode:*)",
+      "Bash(/Users/yunjongseo/.opencode/bin/opencode:*)",
+      "Bash(sudo chown:*)",
+      "Bash(export PATH=\"/Users/yunjongseo/.opencode/bin:$PATH\")",
+      "Bash(opencode auth login:*)",
+      "Bash(lsof:*)",
+      "mcp__supabase__list_tables",
+      "Read(//Users/yunjongseo/데스크탑/Projects/ContractInsight/**)",
+      "Read(//Users/yunjongseo/데스크탑/Projects/ContractInsight/**)",
+      "Read(//Users/yunjongseo/데스크탑/Projects/ContractInsight/frontend/src/lib/**)",
+      "Read(//Users/yunjongseo/데스크탑/Projects/ContractInsight/frontend/src/lib/**)",
+      "mcp__multi-llm__document_writer",
+      "mcp__multi-llm__review_implementation"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "supabase",
+    "figma-developer-mcp",
+    "figma-dev-mode-mcp-server"
+  ]
+}
